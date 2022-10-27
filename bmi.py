@@ -2,7 +2,7 @@ def calculate_bmi(weight, height):
     print("Height = " + str(height))
     print("Weight = " + str(weight))
 
-    bmi = float(weight)/ float(height)*float(height)
+    bmi = float(weight)/ (float(height)*float(height))
 
     print(bmi)
 
@@ -13,4 +13,4 @@ def calculate_bmi(weight, height):
     else:
         print("Overweight")
 
-calculate_bmi(57, 1.73)
+calculate_bmi(weight= 57, height=1.73)
