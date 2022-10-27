@@ -43,5 +43,3 @@ def main():
     temps=get_user_input()
     calc_average(temps)
     calc_min_max_temperature(temps)
-
-main()
